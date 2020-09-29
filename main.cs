@@ -134,30 +134,6 @@ class MainClass {
               Console.Write("Nenhum serviço selecionado tente novamente!");
               break;
       }
-   /*
-    if(codServico == 01){
-      Ana.Agendamento(Eletricista.GetFuncao(),Eletricista.GetNome(),Eletricista.GetPreco());
-      valorFinal = Eletricista.GetPreco();
-      }else if(codServico == 02){
-        Ana.Agendamento(Pedreiro.GetFuncao(),Pedreiro.GetNome(),Pedreiro.GetPreco());
-        valorFinal = Pedreiro.GetPreco();
-        }else if(codServico == 03){
-          Ana.Agendamento(Faxina.GetFuncao(),Faxina.GetNome(),Faxina.GetPreco());
-          valorFinal = Faxina.GetPreco();
-          }else{
-           Console.Write("Nenhum serviço selecionado!");   
-    }
-    Console.Write(CodDisponibilidade.Disponibilidade(codDisp));
-
-  
-    //
-    Console.Write("\n|01 para Confirmar ou 02 para cancelar serviço|\n");
-    int codconfirm = int.Parse(Console.ReadLine());
-    if(codconfirm == 01){
-      Ana.Pagar(cardAna, cardAna.Getnumero(), valorFinal);
-      Ana.NotaFiscal()
-    }else if(codconfirm == 02){
-      Console.Write("\n|SERVIÇO CANCELADO COM SUCESSO|\n");
-    }*/
+   
   }
 }
